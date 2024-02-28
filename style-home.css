@@ -1,0 +1,119 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    border: #000 solid 1px;
+}
+.tituloPrincipal{
+    text-align: center;
+    padding: 40px 0 0 0;
+    font-size: 60px;
+}
+#caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+#banner{
+    width: 70%;   
+    margin: 20px 0;
+    border: 1px #000 solid;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+body{
+    background: url(/fondoBody.jpg);
+}
+
+.contenedor{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+main{
+    margin: 0 130px;
+    text-align: center;
+    border: #000 solid 1px;
+    border-top: #FFFFFF;
+    border-radius: 5px;
+}
+
+.tituloPrincipal{
+    padding-left: 30px;
+}
+.principal{
+    background-color: #CCCCCC;
+    padding: 0 40px 20px;
+    margin: 10px 70px;
+    border: #000 solid 1px;
+    border-radius: 5px;
+}
+.tituloCentralizado{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+em strong{
+    color: darkcyan;
+}
+#mision{
+    font-size: 20px;
+}
+
+.items{
+    margin: 0 0 0 40px;
+    font-style: italic; 
+}
+.diferencial{
+    text-align: left;
+    padding: 20px 70px 40px;
+    
+}
+#diferenciales{
+    margin: 10px 0;
+}
+.imgDif{
+    text-align: inherit;
+    width: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 20px;
+}
