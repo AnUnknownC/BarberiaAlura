@@ -40,7 +40,7 @@ nav a:hover{
 }
 
 #banner{
-    width: 70%;   
+    width: 75%;
     margin: 20px 0;
     border: 1px #000 solid;
     border-top-left-radius: 25px;
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 body{
-    background: url(/fondoBody.jpeg) 440% 40%;
+    background: url(/imagenes/fondoBody.jpeg) 440% 40%;
 }
 
 .contenedor{
@@ -71,14 +71,14 @@ main{
 .principal{
     background-color: #CCCCCC;
     padding: 0 40px 20px;
-    margin: 10px 70px;
+    margin: 10px 10em;
     border: #000 solid 1px;
     border-radius: 5px;
 }
 .tituloCentralizado{
     text-align: center;
     font-size: 30px;
-    color: #EE1D1D;
+    color: #D31613;
     padding: 10px 0;
 }
 
@@ -86,7 +86,7 @@ main{
     font-size: 105%;
 }
 em strong{
-    color: #3441F0;
+    font-weight: bold;
 }
 #mision{
     font-size: 105%;
@@ -99,14 +99,16 @@ em strong{
 }
 .diferencial{
     text-align: left;
-    padding: 20px 70px 40px;
-    
+    padding: 20px 10em 40px;
 }
 
 #diferenciales{
+    width: 40%;
+    vertical-align: top;
     list-style-type: disc;
     font-size: 105%;
     margin: 5px 0 25px;
+    display: inline-block;
 }
 .imgDif{
     text-align: inherit;
@@ -115,9 +117,22 @@ em strong{
     border-bottom-right-radius: 25px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-
+    margin: 0 0 0;
 }
 
+.mapa{
+    padding: 0 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
 footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
