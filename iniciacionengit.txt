@@ -1,0 +1,7 @@
+Para sincronizar archivos Github - local se utiliza el comando "git pull"
+Para sincronizar archivos loca - Github se utiliza la sucesion de comandos:
+- git add <nombreArchivo>
+- git commit -m "Add file <nombreArchivo>"
+- git push
+Para confirmar que no haya archivos pendientes o cualquier error en la actualizacion de los archivos
+usa el comando "git status"
