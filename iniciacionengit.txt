@@ -1,7 +1,17 @@
 Para sincronizar archivos Github - local se utiliza el comando "git pull"
 Para sincronizar archivos loca - Github se utiliza la sucesion de comandos:
-- git add <nombreArchivo>
+- git add <nombreArchivo> (o git add . para todos los archivos)
 - git commit -m "Add file <nombreArchivo>"
 - git push
 Para confirmar que no haya archivos pendientes o cualquier error en la actualizacion de los archivos
 usa el comando "git status"
+
+Para iniciar un repositorio desde el computador usamos el "git init", para conectarlo con un repositorio en Github entonces usamos los 
+comandos que nos da la propia pagina
+
+Con el "git branch" para ver las ramificaciones del proyecto y el "git diff" para ver los cambios en el archivo
+
+Con "git checkout -b <nombreNuevaRama>" para crear otra rama, "git switch" para cambiar de rama, "git merge <nombreOtraRama>" para mezclar 
+dos ramas y para confirmar entonces se utiliza el push con el añadido de "origin main"
+
+Para volver a un cambio anterior o revertir un cambio colocamos "git restore <hashCambio>" 
